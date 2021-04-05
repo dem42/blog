@@ -1,5 +1,5 @@
 ---
-title: "Choosing a programming language: Memory semantics"
+title: "Choosing a programming language: Memory semantics of Rust, C++ and Zig"
 date: 2021-04-05T00:47:00+02:00
 draft: true
 ---
