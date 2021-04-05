@@ -16,7 +16,7 @@ First of all, I think we are now in a new era of programming languages. The indu
 
 This new era in my option began with languages targeting the java virtual machine (JVM). Scala and Clojure were the first big languages to emerge out of this and both gained traction. Kotlin followed a number of years later and I would say that though neither Kotlin, Scala nor Clojure managed to replace Java, they all took enough market share from Java to cause it to go into decline. 
 
-After LLVM made it reasonable to create natively compiled languages, I think we are now seeing the same happening in the native space. I believe Rust is already getting a lot of attention and market share and I think other, newer languages will follow and equally manage to grab market share. We also don't need big runtimes and virtual machines anymore which is what used to be the advantege of languages like Java and C#.
+After LLVM made it reasonable to create natively compiled languages, I think we are now seeing the same happening in the native space. I believe Rust is already getting a lot of attention and market share and I think other, newer languages will follow and equally manage to grab market share. We also don't need big runtimes and virtual machines anymore which is what used to be the advantage of languages like Java and C#.
 
 This is of course quite exciting for programmers. It means we now to get to shop around and pick the language that we like the best. However, it's no fun to have to rewrite your project when you decide you didn't like your original choice of language. It's important to evaluate programming languages carefully in order to make as good a choice as possible. 
 
