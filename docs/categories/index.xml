@@ -5,10 +5,6 @@
     <link>http://martinpapanek.com/categories/</link>
     <description>Recent content in Categories on ĭn″kō-hîr′ənt</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="http://martinpapanek.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="http://martinpapanek.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

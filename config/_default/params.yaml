@@ -1,0 +1,12 @@
+highlight:
+  handler: highlightjs
+  
+  highlightjs:
+    # highlight.js doesn't bundle every language. So please specify additional languages you want here.
+    # See https://github.com/highlightjs/cdn-release/tree/master/build/languages for available languages.
+    languages:
+      - rust
+      - cpp
+    # See https://github.com/highlightjs/cdn-release/tree/master/build/styles for available styles.
+    #style: obsidian
+    style: monokai-sublime

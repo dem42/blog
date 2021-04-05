@@ -1,0 +1,10 @@
+.content pre {
+    background-color: rgb(40, 43, 46) !important;
+}
+
+.content pre code {
+    font-family: 'Courier New' !important;
+    font-size: 1em !important;
+    background-color: rgb(40, 43, 46) !important;
+    color: white;
+}
