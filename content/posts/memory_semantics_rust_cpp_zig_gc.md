@@ -10,11 +10,11 @@ One of the hardest concepts to reason about when building your program is memory
 So let's investigate a few programming languages and their memory semantics to see if the quality of their semantics can help make them a good choice.
 
 # Why even do this?
-So maybe before we jump into the fun stuff, I should justify why this makes sense. If you only care about the fun stuff feel free to skip this section. 
+So maybe before we jump into the fun stuff, I should justify why this makes sense. If you only care about the fun stuff, then feel free to skip this section. 
 
 First of all, I think we are now in a new era of programming languages. The industry hasn't quite caught up to this yet, but I think it is catching up slowly and steadily. 
 
-This new era in my option began with languages targeting the java virtual machine (JVM). Scala and Clojure were the first big languages to emerge out of this and both gained traction. Kotlin followed a number of years later and I would say that though neither Kotlin, Scala nor Clojure managed to replace Java, they all took enough market share from Java to cause it to go into decline. 
+This new era began with languages targeting the java virtual machine (JVM). Scala and Clojure were the first big languages to emerge out of this and both gained traction. Kotlin followed a number of years later and I would say that though neither Kotlin, Scala nor Clojure managed to replace Java, they all took enough market share from Java to cause it to go into decline. 
 
 After LLVM made it reasonable to create natively compiled languages, I think we are now seeing the same happening in the native space. I believe Rust is already getting a lot of attention and market share and I think other, newer languages will follow and equally manage to grab market share. We also don't need big runtimes and virtual machines anymore which is what used to be the advantage of languages like Java and C#.
 
@@ -199,7 +199,7 @@ This is Rust's approach to memory in a nutshell and it has to be said that it is
 I would say that Rust's pros outweigh its cons. I do have a pet peeve with the language though. Namely, its reliance on macros. It has two parallel macro systems, declarative and procedural macros. Quite honestly, you need to spend a lot of time learning each if you want to write your own macros or understand macros others have written. In addition to macros, Rust also has a powerful type system with traits and monomorphized generics, expansive pattern matching facilities, async/await, operator overloading and automatic deref. In short, there's a lot to learn to feel like an accomplished Rust programer and I personally wish it was a bit simpler.
 
 # C++
-Let's now look at memory semantics of C++. It should be said that C++ is a language that has evolved a lot and there are many different ways to express things in C++. This can get very confusing and I feel it is easy to make mistakes.
+Let's now look at the memory semantics of C++. It should be said that C++ is a language that has evolved a lot and there are many different ways to express things in C++. This can get very confusing and I feel it is easy to make mistakes.
 
 First of all, immutablility can (assuming no use of the `mutable` keyword) be achieved by marking your variables as `const`. Such variables then only allow non-mutable access exactly like Rust's immutable references. The difference is of course that in C++ you can have a `const` and a non-const reference to the same memory active at the same time. Therefore, concurrency data races are definitely possible, but the language does give you a means to have immutability and program in a way that enforces the only-one-mutable-reference restriction, should you choose to do so. 
 
@@ -292,7 +292,7 @@ auto vector = std::vector<int, MyAllocator>();
 So in summary, C++ definitely provides a lot of means to the programmer to understand the memory semantics of his or her program. However, I personally find the memory semantics are very complicated, inelegant and have a very steep learning curve. This is due to the language having evolved these concepts over many years, instead of having them from the begininng. The fact that it has been around for so long means it is very popular and widely used, however. Therefore, putting in the effort to learn it deeply may be a good time investment. Personally, I think easier languages will progressively take more and more mind share away from C++ and it will decline. At the end of the day, things don't have to be this complicated.
 
 # Zig
-If we want something simpler there is a new programming language in development called Zig. This is a programming language that hasn't even reached its 1.0 release and is still highly unstable. However, I think it looks quite promising and it's already starting to generate some excitiment I think. Zig's goal is to be a safe, modern C. Zig does not want to have many language features and it wants to stay low level which also means that you have to manage memory manually. Additionally, Zig doesn't have macros but does let the programmer execute Zig code at compile time. The code that's executed at compile time can create other code much like lisp, and therefore can be used to create generic data strucutres.
+If we want something simpler, then there is a new programming language in development called Zig. This is a programming language that hasn't even reached its 1.0 release and is still highly unstable. However, I think it looks quite promising and it's already starting to generate some excitiment I think. Zig's goal is to be a safe, modern C. Zig does not want to have many language features and it wants to stay low level which also means that you have to manage memory manually. Additionally, Zig doesn't have macros but does let the programmer execute Zig code at compile time. The code that's executed at compile time can create other code much like lisp, and therefore can be used to create generic data strucutres.
 
 We are here for memory though, so let's have a look at the memory semantics of Zig.
 
