@@ -58,7 +58,7 @@ Functional programming is another good example of a type of programming that man
 
 I claim that with Rust the experience of being restricted is due to the same reason. We are used to expressing ourselves in programming languages which do not have the same restrictions that Rust has. Of course, these other languages have plenty of their own restrictions, they are not human language after all. You cannot tell the computer "go to my home folder and find the file that I like to use". You have to encode this command in a very rigorous sequence of code statements and expressions. 
 
-So, in essence Rust introduces a new restriction and programming with this new restriction will feel unnatural for experiences programmers coming into Rust. However, I think once we get used expressing ourselves in Rust, then it will feel natural again and won't cause friction anymore.
+So, in essence Rust introduces a new restriction and programming with this new restriction will feel unnatural for us experienced programmers that are new to Rust. However, I think once we get used expressing ourselves in Rust, then it will feel natural again and won't cause friction anymore.
 
 To offer an analogy: many interpreted languages are dynamically types which means that the programmer is free to pass any type into a function as a parameter for example to easily get polymorphic functions. Statically typed languages restrict this and force programmers to work a lot harder to achieve the same thing. Now, obviously static typing adds a restriction that limits the expressiveness. However, most programmers of statically typed languages are quite fine with this restriction and learn to be very productive in spite of it.
 
