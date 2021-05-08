@@ -6,7 +6,17 @@
     <description>Recent content on ĭn″kō-hîr′ənt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Apr 2021 00:47:00 +0200</lastBuildDate><atom:link href="http://martinpapanek.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 May 2021 01:47:21 +0200</lastBuildDate><atom:link href="http://martinpapanek.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Choosing a programming language: Why I chose Rust</title>
+      <link>http://martinpapanek.com/posts/rust_win/</link>
+      <pubDate>Mon, 03 May 2021 01:47:21 +0200</pubDate>
+      
+      <guid>http://martinpapanek.com/posts/rust_win/</guid>
+      <description>After spending a disgusting amount of time looking into the many available programming languages, I have finally settled on Rust.
+It was not an easy choice, because there are some things about Rust that were almost deal-breakers for me. However, in my view the pros outweigh the cons and I claim that the language is a great choice for most projects. I will lay out the case for Rust in this blog post to convince you that it is not just hype.</description>
+    </item>
+    
     <item>
       <title>Choosing a programming language: Memory semantics of Rust, C&#43;&#43; and Zig</title>
       <link>http://martinpapanek.com/posts/memory_semantics_rust_cpp_zig_gc/</link>
